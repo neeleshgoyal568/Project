@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome Suite Execution is start Sat Sep 12 13:16:38 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is Navigated]]>
+    </line>
+    <line>
+      <![CDATA[validLogin Script Execution is start Sat Sep 12 13:16:46 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Title is verified]]>
+    </line>
+    <line>
+      <![CDATA[validLogin Script Result is passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Launch]]>
+    </line>
+    <line>
+      <![CDATA[URL is Navigated]]>
+    </line>
+    <line>
+      <![CDATA[invalidLogin Script Execution is start Sat Sep 12 13:17:00 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Login Message is verified]]>
+    </line>
+    <line>
+      <![CDATA[invalidLogin Script Result is passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23105" started-at="2020-09-12T13:16:38 IST" finished-at="2020-09-12T13:17:01 IST">
+    <groups>
+    </groups>
+    <test name="chrome" duration-ms="23105" started-at="2020-09-12T13:16:38 IST" finished-at="2020-09-12T13:17:01 IST">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@13a5fe33]" name="preCond" is-config="true" duration-ms="7275" started-at="2020-09-12T13:16:38 IST" finished-at="2020-09-12T13:16:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is Navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@13a5fe33]" name="validLogin" duration-ms="3013" started-at="2020-09-12T13:16:46 IST" finished-at="2020-09-12T13:16:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[validLogin Script Execution is start Sat Sep 12 13:16:46 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Home Page Title is verified]]>
+            </line>
+            <line>
+              <![CDATA[validLogin Script Result is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.actitime.scripts.LoginTest@13a5fe33]" name="postCond" is-config="true" duration-ms="4325" started-at="2020-09-12T13:16:49 IST" finished-at="2020-09-12T13:16:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@13a5fe33]" name="preCond" is-config="true" duration-ms="6930" started-at="2020-09-12T13:16:53 IST" finished-at="2020-09-12T13:17:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launch]]>
+            </line>
+            <line>
+              <![CDATA[URL is Navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@13a5fe33]" name="invalidLogin" duration-ms="1332" started-at="2020-09-12T13:17:00 IST" finished-at="2020-09-12T13:17:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[invalidLogin Script Execution is start Sat Sep 12 13:17:00 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Login Message is verified]]>
+            </line>
+            <line>
+              <![CDATA[invalidLogin Script Result is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.actitime.scripts.LoginTest@13a5fe33]" name="postCond" is-config="true" duration-ms="196" started-at="2020-09-12T13:17:01 IST" finished-at="2020-09-12T13:17:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
